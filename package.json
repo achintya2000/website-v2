@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "patch": "patch-package"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.66",
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.17.0",
+    "@types/vue-writer": "^1.2.0",
+    "nuxt": "^3.12.1",
+    "nuxt-particles": "^0.3.0",
+    "vuetify-nuxt-module": "^0.14.1"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "patch-package": "^8.0.0",
+    "vue-writer": "^2.0.2"
+  }
+}

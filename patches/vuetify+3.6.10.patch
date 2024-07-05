@@ -1,0 +1,13 @@
+diff --git a/node_modules/vuetify/lib/styles/main.css b/node_modules/vuetify/lib/styles/main.css
+index a45c0cb..0aaee31 100644
+--- a/node_modules/vuetify/lib/styles/main.css
++++ b/node_modules/vuetify/lib/styles/main.css
+@@ -15,7 +15,7 @@
+ }
+ 
+ .bg-white {
+-  background-color: #FFFFFF !important;
++  background-color: #FFFFFF;
+   color: #000000 !important;
+ }
+ 
