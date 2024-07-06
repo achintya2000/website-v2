@@ -6,20 +6,19 @@
       <v-row>
         <v-col>
           <v-card flat color="transparent" style="padding: 10%">
-            <h1 class="glitch text-center" style="font-size: 4vw" data-text="Hi!">
+            <h1 class="glitch text-center" style="font-size: 4vw; font-weight: bold" data-text="Hi!">
               Hi!
             </h1>
-            <h1 class="glitch text-center" style="font-size: 4vw" data-text="I'm Achintya">
+            <h1 class="glitch text-center" style="font-size: 4vw; font-weight: bold" data-text="I'm Achintya">
               I'm Achintya
             </h1>
 
             <VueWriter :typeSpeed="70" :cursor="'|'" :array="arr" class="text-center font-italic"
-              style="font-size: 1.5vw; font-weight: bold;" />
+              style="font-size: 2vw; font-weight: bold;" />
           </v-card>
         </v-col>
       </v-row>
     </v-container>
-
   </UContainer>
 </template>
 

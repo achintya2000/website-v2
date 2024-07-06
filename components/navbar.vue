@@ -43,6 +43,7 @@ const links = [
     }, {
       label: 'LinkedIn',
       icon: 'i-mdi-linkedin',
+      to: "https://www.linkedin.com/in/achintyakumar/",
       target: "_blank"
     }]
 ]
