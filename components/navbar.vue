@@ -30,11 +30,18 @@ const links = [
       icon: 'i-heroicons-code-bracket',
       to: '/projects',
       target: "_self"
-    }, {
+    },
+    {
       label: 'Education',
-      icon: 'i-heroicons-chart-bar',
+      icon: 'i-heroicons-academic-cap',
       to: '/education',
       target: "_self"
+    },
+    {
+      label: 'Resume',
+      icon: 'i-heroicons-document-text',
+      to: '/Achintya_Resume_June_2024.pdf',
+      target: "_blank"
     }], [{
       label: 'Github',
       icon: 'i-mdi-github',
@@ -45,6 +52,12 @@ const links = [
       icon: 'i-mdi-linkedin',
       to: "https://www.linkedin.com/in/achintyakumar/",
       target: "_blank"
-    }]
+    },
+    {
+      label: '',
+      icon: 'i-mdi-gmail',
+      to: "mailto:achintyasi@gmail.com"
+    }
+  ]
 ]
 </script>

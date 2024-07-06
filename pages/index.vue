@@ -25,7 +25,7 @@
 <script setup lang="ts">
 import type { Container } from 'tsparticles-engine'
 
-const arr = ['Engineer', 'Entrepreneur', 'Thinker'];
+const arr = ['Engineer', 'Entrepreneur', 'Tech Enthusiast'];
 
 // See tsParticles documentation for all available options
 const options = {
