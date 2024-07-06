@@ -23,7 +23,7 @@
 
             <v-card-actions>
                 <v-btn>Share</v-btn>
-                <v-btn color="blue">Explore</v-btn>
+                <v-btn color="blue" target="_blank" :href="experience.explore">Explore</v-btn>
                 <v-spacer></v-spacer>
                 <v-btn :icon="experience.show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
                     @click="experience.show = !experience.show"></v-btn>
@@ -46,13 +46,28 @@ export default {
         show: false,
         Experiences: [
             {
+                title: "Software Engineer",
+                image: "/experience6.png",
+                company: "Palo Alto Networks",
+                description:
+                    "Led Cloud Next-Gen Firewall (CNGFW) integration with Palo Alto Networks SSO; enhancing security, user experience, and customer growth by 15%. Successfully implemented cross tenant support for users and maintained backwards compatibility with Cognito and Okta SSO login systems. Optimized subscription process by migrating the AWS Marketplace experience from Moonwalk to Quick Launch; completed within a tight three-week deadline, demonstrating capability in rapid knowledge transfer, high-quality code delivery, and cross-team communication. \
+                    Spearheaded the development of CNGFW AppUsage, leveraging Go for a high-performance microservices infrastructure that enhances traffic visibility for customers. Key feature for securing a $2m enterprise deal with Mastercard. Integral in the microservices architecture design which utilized AWS EKS, ECR, Docker, and Kubernetes to outperform current serverless design and thus be adopted for future projects. Boosted enterprise customer acquisition by 30% through leading development of the Tiered Billing project. Delivered a competitive pricing model update, optimized AWS billing architecture to improve performance, and created a new billing visualization dashboard for users. \
+                    Developed event integration with Datadog Dashboards, significantly improving service health visibility and customer issue remediation speed. Co-led the development of the AWS Private Offers feature, driving customer acquisition growth and securing over \$1M in contracts with Gartner \& BP through discounted SaaS deals for Cloud NGFW. Rapidly developed and deployed a secure mTLS-based API Gateway Infra for CNGFW integration with Panorama for critical product demos. Led the development of a customer onboarding workflow tracking system, integrating event tracking with GCP BigQuery DataLake to build dashboards that visualize customer acquisition flow and key drop-off points, serving as the foundation for future product insights infrastructure. \
+                    Designed and implemented a modular Sendgrid based email notification system for sending customer updates on billing, contracts and user management; seamlessly integrated with Lambda and SQS to provide a highly available platform for production sending 500+ emails per month.",
+                show: false,
+                explore: "https://www.paloaltonetworks.com/network-security/cloud-ngfw"
+            },
+            {
                 title: "CEO",
-                image: "/experience4.jpg",
+                image: "/experience5.png",
                 company:
                     "InstaJam, LLC",
                 description:
-                    "",
+                    "Co-founder and CEO of defense industry start-up focused on Electronic Warfare (EW) jamming detection and countermeasures. Raised $2m in funding: awarded Department of Defense STTR Seq. Phase 2 [$1.3m], Phase 2 [$750k] and STTR Phase 1 grant [$50k]. PI (Principal Investigator) for all grants. Led a team of ∼10 across multiple organizations developing a mobile ATAK app for warfighters to detect and communicate instances of radio jamming; improving efficiency on the field by 90%. \
+                    Successfully pitched the business case at multiple field testing events and garnered extensive support from executives across the Air Force and Pentagon such as Air Combat Command A3J, 805th Test Squadron, and Special Warfare Directorate HQ to sponsor our company. Fostered business relationship with PhDs at Duke ECE Dept. \& Applied ML Lab to develop jamming classification ML algorithms. Delivered product requirements, built out simulation platform for data generation, and managed delivery + integration of model to meet Air Force requirements. \
+                    Collaborated with defense prime Booz Allen Hamilton and led integration work between their Nexus backend platform and our frontend. Managed the partnership with Notch Inc, a leader in metamaterial solutions that enable antennas to be electronically controlled for beamforming, to build out our portable direction finding solution. Led the integration work with multiple mesh network companies (Gotenna, Somewear) to allow data collected on our edge platform to be collected across nodes for jammer localization and building a heatmap of the EW spectrum status.",
                 show: false,
+                explore: "https://www.instajam.one/"
             },
             {
                 title: "SDE Intern - AR R&D",

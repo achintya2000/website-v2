@@ -10,9 +10,7 @@ export default defineNuxtConfig({
     lazy: false
   },
   vuetify: {
-    vuetifyOptions: {
-
-    },
+    vuetifyOptions: './vuetify.config.ts',
   },
   features: {
     inlineStyles: false
