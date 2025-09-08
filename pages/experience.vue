@@ -46,6 +46,18 @@ export default {
         show: false,
         Experiences: [
             {
+                title: "Forward Deployed Software Engineer",
+                image: "/experience7.jpg",
+                company: "Palantir Technologies",
+                description:
+                    "Led Cloud Next-Gen Firewall (CNGFW) integration with Palo Alto Networks SSO; enhancing security, user experience, and customer growth by 15%. Successfully implemented cross tenant support for users and maintained backwards compatibility with Cognito and Okta SSO login systems. Optimized subscription process by migrating the AWS Marketplace experience from Moonwalk to Quick Launch; completed within a tight three-week deadline, demonstrating capability in rapid knowledge transfer, high-quality code delivery, and cross-team communication. \
+                    Spearheaded the development of CNGFW AppUsage, leveraging Go for a high-performance microservices infrastructure that enhances traffic visibility for customers. Key feature for securing a $2m enterprise deal with Mastercard. Integral in the microservices architecture design which utilized AWS EKS, ECR, Docker, and Kubernetes to outperform current serverless design and thus be adopted for future projects. Boosted enterprise customer acquisition by 30% through leading development of the Tiered Billing project. Delivered a competitive pricing model update, optimized AWS billing architecture to improve performance, and created a new billing visualization dashboard for users. \
+                    Developed event integration with Datadog Dashboards, significantly improving service health visibility and customer issue remediation speed. Co-led the development of the AWS Private Offers feature, driving customer acquisition growth and securing over \$1M in contracts with Gartner \& BP through discounted SaaS deals for Cloud NGFW. Rapidly developed and deployed a secure mTLS-based API Gateway Infra for CNGFW integration with Panorama for critical product demos. Led the development of a customer onboarding workflow tracking system, integrating event tracking with GCP BigQuery DataLake to build dashboards that visualize customer acquisition flow and key drop-off points, serving as the foundation for future product insights infrastructure. \
+                    Designed and implemented a modular Sendgrid based email notification system for sending customer updates on billing, contracts and user management; seamlessly integrated with Lambda and SQS to provide a highly available platform for production sending 500+ emails per month.",
+                show: false,
+                explore: "https://www.palantir.com/warpspeed/"
+            },
+            {
                 title: "Software Engineer",
                 image: "/experience6.png",
                 company: "Palo Alto Networks",
