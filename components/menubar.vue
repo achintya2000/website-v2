@@ -65,15 +65,16 @@ const menulinks = [
         isOpen.value = !isOpen.value
       }
     },
+    // {
+    //   label: 'Projects',
+    //   icon: 'i-heroicons-code-bracket',
+    //   to: '/projects',
+    //   target: "_self",
+    //   click: () => {
+    //     isOpen.value = !isOpen.value
+    //   }
+    // }, 
     {
-      label: 'Projects',
-      icon: 'i-heroicons-code-bracket',
-      to: '/projects',
-      target: "_self",
-      click: () => {
-        isOpen.value = !isOpen.value
-      }
-    }, {
       label: 'Education',
       icon: 'i-heroicons-chart-bar',
       to: '/education',

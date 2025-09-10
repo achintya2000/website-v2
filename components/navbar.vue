@@ -25,12 +25,12 @@ const links = [
       to: '/experience',
       target: "_self"
     },
-    {
-      label: 'Projects',
-      icon: 'i-heroicons-code-bracket',
-      to: '/projects',
-      target: "_self"
-    },
+    // {
+    //   label: 'Projects',
+    //   icon: 'i-heroicons-code-bracket',
+    //   to: '/projects',
+    //   target: "_self"
+    // },
     {
       label: 'Education',
       icon: 'i-heroicons-academic-cap',
