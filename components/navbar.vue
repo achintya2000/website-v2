@@ -3,7 +3,7 @@
     <UHorizontalNavigation :links="links">
       <template #default="{ link }">
         <span style="font-size: 1vw;" class="group-hover:text-primary relative" :target="link.target">{{ link.label
-          }}</span>
+        }}</span>
       </template>
     </UHorizontalNavigation>
   </div>
@@ -40,7 +40,7 @@ const links = [
     {
       label: 'Resume',
       icon: 'i-heroicons-document-text',
-      to: '/Achintya_Resume_June_2024.pdf',
+      to: '/Achintya_Resume_2025.pdf',
       target: "_blank"
     }], [{
       label: 'Github',
